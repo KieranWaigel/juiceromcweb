@@ -1,14 +1,16 @@
 <template>
-      <div id="home">
+      <div id="members">
       <h3>
-        This is the Home Page
+        This is the Member Page
       </h3>
      </div>
 </template>
 
+
+
 <script>
 export default {
-    name: 'Home',
+    name: 'Members',
     data: function(){
         return{
             msg: 'this is a test'
