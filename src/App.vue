@@ -6,6 +6,14 @@
       dark
     >
 
+    <v-img 
+      alt="JuiceroMCLogo"
+      class="shrink mt-1 hidden-sm-and-down"
+      contain
+      min-width="200"
+      src='./assets/juiceromclogo.png'
+      width="200"
+    />
       <v-spacer></v-spacer>
 
       <v-btn to="/">
