@@ -1,0 +1,53 @@
+body {
+  background-color: #1F1F2F;
+
+  font-family: "Consolas", "Monospace";
+  font-size: 16px;
+  color: white;
+  margin: 25px;
+}
+
+#login {
+  float: left;
+  padding: 25px;
+}
+
+
+#logininput {
+  padding: 15px;
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+
+input {
+  font-family: "Consolas", "Monospace";
+  font-size: 14px;
+  padding: 3px;
+  border-radius:3px;
+  margin-bottom:15px;
+  width: 97%;
+  border: none;
+  display: inline-block;
+}
+
+#usrbtn {
+  background-color: #2F2F3F;
+  font-family: "Consolas", "Monospace";
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding: 3px;
+  border-radius: 3px;
+  margin: auto;
+  width: 50%;
+  border: none;
+  display: inline-block;
+}
+
+
+#content {
+  float: left;
+  padding: 25px;
+}
