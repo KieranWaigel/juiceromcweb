@@ -1,17 +1,14 @@
 <template>
 <div>
-    <loginpage></loginpage>
+    <hr>
+    <router-view></router-view>
 </div>
 </template>
 
 <script>
-import loginpage from './components/Login.vue'
 
 export default {
   name: 'App',
-  components: {
-    loginpage
-  },
 
   data: function() {
 return {
