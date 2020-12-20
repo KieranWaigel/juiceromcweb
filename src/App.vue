@@ -10,7 +10,7 @@
       <body>
         <div id="login">
           <h3>
-            &lt;juiceromc&gt;
+            juiceromc
           </h3>
           <div id="logininput">
 
@@ -23,7 +23,7 @@
         <div id="content">
 
           <h3>
-            &lt;current users&gt;
+            current users
           </h3>
           <li v-for="name in users" v-bind:key="name"></li>
         </div>
@@ -54,5 +54,5 @@ return {
 </script>
 
 <style>
-  @import '/assets/stylemain.css';
+  @import './assets/stylemain.css';
 </style>
