@@ -1,41 +1,18 @@
 <template>
 <div>
-  
-   <head>
-      <title>Juciero MC</title>
-    </head>
-
-    <div id="juicero">
-
-      <body>
-        <div id="login">
-          <h3>
-            juiceromc
-          </h3>
-          <div id="logininput">
-
-            <input v-model="usr" placeholder="username">
-            <input v-model="pwd" placeholder="password">
-            <button id="usrbtn" @click="addUser"> Add User</button>
-
-          </div>
-        </div>
-        <div id="content">
-
-          <h3>
-            current users
-          </h3>
-          <li v-for="name in users" v-bind:key="name"></li>
-        </div>
-
-      </body>
-    </div>
+    <loginpage></loginpage>
 </div>
 </template>
 
 <script>
+import loginpage from './components/Login.vue'
+
 export default {
-  el: '#juicero',
+  name: 'App',
+  components: {
+    loginpage
+  },
+
   data: function() {
 return {
     usr: '',
