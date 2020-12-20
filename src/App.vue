@@ -2,7 +2,7 @@
 <div>
   
    <head>
-      <title>juiceromc: the juicer of the future</title>
+      <title>Juciero MC</title>
     </head>
 
     <div id="juicero">
