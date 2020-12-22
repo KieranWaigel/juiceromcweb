@@ -16,7 +16,8 @@
     />
       <v-spacer></v-spacer>
 
-      <v-btn to="/">
+      <v-btn to="/"
+      text>
         <span class="mr-2">Home</span>
       </v-btn>
 
@@ -28,12 +29,16 @@
         <span class="mr-2">About</span>
       </v-btn>
 
+      
+
       <v-btn
         to="/members"
         text
       >
         <span class="mr-2">Gamers Only</span>
       </v-btn>
+
+      <v-btn @click="logout" v-if="this.$store.state.userIsAuthorized" text>Logout</v-btn>
     </v-app-bar>
    
 
@@ -53,8 +58,21 @@ export default {
 
   },
 
-  data: () => ({
-    //
-  }),
+  data () {
+    return {
+      clientId: process.env.VUE_APP_AUTH0_CONFIG_CLIENTID
+    }
+  },
+  methods:{
+    logout(){
+      this.$store.dispatch('auth0Logout');
+      console.log('logging out');
+    }
+  },
+  beforeCreate(){
+
+  }
+
+
 };
 </script>
