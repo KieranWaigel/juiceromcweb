@@ -1,29 +1,7 @@
-# Vue Basic
+# Welcome to JuiceroMC
 
-## Project setup
+## Whats the Goal?
+This is an overengineered web app to control an Azure VM.
 
-```bash
-npm install
-```
-
-### Compiles and hot-reloads for development
-
-```bash
-npm run serve
-```
-
-### Compiles and minifies for production
-
-```bash
-npm run build
-```
-
-### Lints and fixes files
-
-```bash
-npm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Whats left to do?
+User authentication needs to be implemented as well as VM control with Azure functions.
